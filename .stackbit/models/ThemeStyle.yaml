@@ -1,0 +1,83 @@
+name: ThemeStyle
+fieldGroups:
+  - name: text-styles
+    label: Text styles
+  - name: color-palettes
+    label: Color palettes
+  - name: button-styles
+    label: Button styles
+fields:
+  - name: fontHeadlines
+    group: text-styles
+    options:
+      - label: Sans
+        value: sans
+      - label: Sans alt
+        value: sansAlt
+  - name: h1
+    group: text-styles
+    readOnly: true
+  - name: h2
+    group: text-styles
+    readOnly: true
+  - name: h3
+    group: text-styles
+    readOnly: true
+  - name: h4
+    group: text-styles
+    readOnly: true
+  - name: h5
+    group: text-styles
+    readOnly: true
+  - name: h6
+    group: text-styles
+    readOnly: true
+  - name: fontBody
+    group: text-styles
+    options:
+      - label: Sans
+        value: sans
+      - label: Sans alt
+        value: sansAlt
+  - type: color
+    name: main
+    group: color-palettes
+  - type: color
+    name: light
+    group: color-palettes
+  - type: color
+    name: onLight
+    group: color-palettes
+  - type: color
+    name: dark
+    group: color-palettes
+  - type: color
+    name: onDark
+    group: color-palettes
+  - type: color
+    name: primary
+    group: color-palettes
+  - type: color
+    name: onPrimary
+    group: color-palettes
+  - type: color
+    name: secondary
+    group: color-palettes
+  - type: color
+    name: onSecondary
+    group: color-palettes
+  - type: color
+    name: complementary
+    group: color-palettes
+  - type: color
+    name: onComplementary
+    group: color-palettes
+  - name: buttonPrimary
+    group: button-styles
+    readOnly: true
+  - name: buttonSecondary
+    group: button-styles
+    readOnly: true
+  - name: link
+    group: button-styles
+    readOnly: true

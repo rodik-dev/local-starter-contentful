@@ -1,0 +1,82 @@
+name: MediaGallerySection
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+extends:
+  - Section
+fields:
+  - name: images
+    default:
+      - type: ImageBlock
+        altText: Image one
+        caption: Image one caption
+      - type: ImageBlock
+        altText: Image two
+        caption: Image two caption
+      - type: ImageBlock
+        altText: Image three
+        caption: Image three caption
+      - type: ImageBlock
+        altText: Image four
+        caption: Image four caption
+  - name: spacing
+    group: styles
+    controlType: 'slider'
+    unit: 'rem'
+  - name: columns
+    group: styles
+    controlType: 'slider'
+  - name: aspectRatio
+    group: styles
+  - name: imageSizePx
+    group: styles
+    controlType: 'slider'
+    unit: 'px'
+  - type: style
+    name: styles
+    styles:
+      self:
+        width: ['narrow', 'wide', 'full']
+        height: ['auto', 'screen']
+        margin: ['tw0:96']
+        padding: ['tw0:96']
+        justifyContent: ['flex-start', 'flex-end', 'center']
+        borderRadius: '*'
+        borderWidth: ['0:8']
+        borderStyle: '*'
+        borderColor:
+          - value: 'border-primary'
+            label: 'Primary color'
+            color: '$primary'
+          - value: 'border-secondary'
+            label: 'Secondary color'
+            color: '$secondary'
+          - value: 'border-dark'
+            label: 'Dark color'
+            color: '$dark'
+          - value: 'border-complementary'
+            label: 'Complementary color'
+            color: '$complementary'
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+    default:
+      self:
+        width: full
+        height: auto
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center

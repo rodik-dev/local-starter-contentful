@@ -1,0 +1,27 @@
+name: PostFeedLayout
+fieldGroups:
+  - name: seo
+    label: SEO
+fields:
+  - name: seo
+    group: seo
+  - name: postFeed
+    readOnly: true
+    default:
+      title: null
+      subtitle: null
+      showDate: true
+      showAuthor: true
+      variant: variant-a
+      colors: colors-a
+      actions: []
+  - type: style
+    name: styles
+    styles:
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+    default:
+      title:
+        textAlign: center

@@ -1,0 +1,12 @@
+name: EmailFormControl
+fieldGroups:
+  - name: styles
+    label: Styles
+fields:
+  - name: width
+    group: styles
+    options:
+      - label: Full
+        value: full
+      - label: 'One half'
+        value: '1/2'

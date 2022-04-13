@@ -1,0 +1,75 @@
+name: TestimonialsSection
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+extends:
+  - Section
+fields:
+  - name: variant
+    group: styles
+    options:
+      - label: Left aligned, large author image
+        value: variant-a
+      - label: Left aligned, small author image
+        value: variant-b
+      - label: Centered, small author image
+        value: variant-c
+  - name: testimonials
+    default:
+      - type: Testimonial
+        quote: |-
+          “It’s great to see someone taking action while still maintaining a
+          sustainable fish supply to home cooks.”
+        name: Johnna Doe
+        title: Product Marketing Manager at Acme
+        image:
+          type: ImageBlock
+          altText: Person photo
+  - type: style
+    name: styles
+    styles:
+      self:
+        height: ['auto', 'screen']
+        width: ['narrow', 'wide', 'full']
+        margin: ['tw0:96']
+        padding: ['tw0:96']
+        justifyContent: ['flex-start', 'flex-end', 'center']
+        borderRadius: '*'
+        borderWidth: ['0:8']
+        borderStyle: '*'
+        borderColor:
+          - value: 'border-primary'
+            label: 'Primary color'
+            color: '$primary'
+          - value: 'border-secondary'
+            label: 'Secondary color'
+            color: '$secondary'
+          - value: 'border-dark'
+            label: 'Dark color'
+            color: '$dark'
+          - value: 'border-complementary'
+            label: 'Complementary color'
+            color: '$complementary'
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+    default:
+      self:
+        height: auto
+        width: wide
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center

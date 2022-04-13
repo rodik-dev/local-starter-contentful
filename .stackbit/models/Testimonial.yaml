@@ -1,0 +1,26 @@
+name: Testimonial
+fieldGroups:
+  - name: settings
+    label: Settings
+fields:
+  - name: image
+    default:
+      altText: Person photo
+  - name: elementId
+    group: settings
+  - type: style
+    name: styles
+    styles:
+      name:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+    default:
+      name:
+        fontWeight: 400
+        fontStyle: normal
+      title:
+        fontWeight: 400
+        fontStyle: normal

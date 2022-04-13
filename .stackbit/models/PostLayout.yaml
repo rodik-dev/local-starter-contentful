@@ -1,0 +1,8 @@
+name: PostLayout
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+fieldGroups:
+  - name: seo
+    label: SEO
+fields:
+  - name: seo
+    group: seo

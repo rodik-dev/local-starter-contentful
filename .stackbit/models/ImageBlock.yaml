@@ -1,0 +1,15 @@
+name: ImageBlock
+fieldGroups:
+  - name: settings
+    label: Settings
+fields:
+  - name: elementId
+    group: settings
+  - type: style
+    name: styles
+    styles:
+      self:
+        opacity: '*'
+    default:
+      self:
+        opacity: 100

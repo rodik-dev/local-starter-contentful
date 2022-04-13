@@ -1,0 +1,74 @@
+name: FaqSection
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+extends:
+  - Section
+fields:
+  - name: actions
+    default:
+      - type: Link
+        label: See all
+        url: '/'
+        showIcon: true
+        icon: arrowRight
+  - name: items
+    default:
+      - question: How it this different from what we have today?
+        answer: At the office, working together is often a distraction, on remote, it could be motivation. At the office, working together is often a distraction, on remote, it could be motivation. At the office, working together is often a distraction, on remote, it could be motivation.
+      - question: How it this different from what we have today?
+        answer: At the office, working together is often a distraction, on remote, it could be motivation. At the office, working together is often a distraction, on remote, it could be motivation. At the office, working together is often a distraction, on remote, it could be motivation.
+      - question: How it this different from what we have today?
+        answer: At the office, working together is often a distraction, on remote, it could be motivation. At the office, working together is often a distraction, on remote, it could be motivation. At the office, working together is often a distraction, on remote, it could be motivation.
+  - type: style
+    name: styles
+    styles:
+      self:
+        height: ['auto', 'screen']
+        width: ['narrow', 'wide', 'full']
+        margin: ['tw0:96']
+        padding: ['tw0:96']
+        justifyContent: ['flex-start', 'flex-end', 'center']
+        borderRadius: '*'
+        borderWidth: ['0:8']
+        borderStyle: '*'
+        borderColor:
+          - value: 'border-primary'
+            label: 'Primary color'
+            color: '$primary'
+          - value: 'border-secondary'
+            label: 'Secondary color'
+            color: '$secondary'
+          - value: 'border-dark'
+            label: 'Dark color'
+            color: '$dark'
+          - value: 'border-complementary'
+            label: 'Complementary color'
+            color: '$complementary'
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+        textAlign: ['left', 'center', 'right']
+      actions:
+        justifyContent: ['flex-start', 'flex-end', 'center']
+    default:
+      self:
+        height: auto
+        width: wide
+        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
+        padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+      actions:
+        justifyContent: center

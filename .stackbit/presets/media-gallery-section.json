@@ -1,0 +1,331 @@
+{
+    "model": "MediaGallerySection",
+    "presets": [
+        {
+            "label": "4 columns light wide",
+            "thumbnail": "images/media-gallery-light-4-col.png",
+            "data": {
+                "colors": "colors-h",
+                "elementId": "",
+                "title": "Gallery",
+                "subtitle": "This is the subtitle",
+                "images": [
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "HL431KujOSBfWFFoW76KQ"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 1",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "1NaSf7FSh7rIRBcsCHmImH"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 2",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "5P4bW8KTcNPGaDPnQ6YFbg"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 3",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "6xQvmBz7kiIuNpn4gPerQO"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 4",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    }
+                ],
+                "spacing": 1,
+                "columns": 4,
+                "aspectRatio": "16:9",
+                "imageSizePx": 240,
+                "showCaption": true,
+                "enableHover": false,
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        },
+        {
+            "label": "2 columns light square",
+            "thumbnail": "images/media-gallery-light-2-col.png",
+            "data": {
+                "colors": "colors-h",
+                "elementId": "",
+                "title": "Gallery",
+                "subtitle": "This is the subtitle",
+                "images": [
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "HL431KujOSBfWFFoW76KQ"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 1",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "1NaSf7FSh7rIRBcsCHmImH"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 2",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "5P4bW8KTcNPGaDPnQ6YFbg"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 3",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "6xQvmBz7kiIuNpn4gPerQO"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 4",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    }
+                ],
+                "columns": 2,
+                "aspectRatio": "1:1",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        },
+        {
+            "label": "4 columns dark wide",
+            "thumbnail": "images/media-gallery-dark-4-col.png",
+            "data": {
+                "colors": "colors-f",
+                "title": "Gallery",
+                "subtitle": "This is the subtitle",
+                "images": [
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "HL431KujOSBfWFFoW76KQ"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 1",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "1NaSf7FSh7rIRBcsCHmImH"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 2",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "5P4bW8KTcNPGaDPnQ6YFbg"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 3",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "6xQvmBz7kiIuNpn4gPerQO"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 4",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    }
+                ],
+                "columns": 4,
+                "aspectRatio": "16:9",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        },
+        {
+            "label": "2 columns dark square",
+            "thumbnail": "images/media-gallery-dark-2-col.png",
+            "data": {
+                "colors": "colors-f",
+                "title": "Gallery",
+                "subtitle": "This is the subtitle",
+                "images": [
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "HL431KujOSBfWFFoW76KQ"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 1",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "1NaSf7FSh7rIRBcsCHmImH"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 2",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "5P4bW8KTcNPGaDPnQ6YFbg"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 3",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageBlock",
+                        "url": {
+                            "$$ref": "6xQvmBz7kiIuNpn4gPerQO"
+                        },
+                        "altText": "Work book cover 3",
+                        "caption": "Gallery image 4",
+                        "elementId": "",
+                        "styles": {
+                            "self": {
+                            }
+                        }
+                    }
+                ],
+                "columns": 2,
+                "aspectRatio": "1:1",
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

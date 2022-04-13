@@ -1,0 +1,14 @@
+name: VideoBlock
+fieldGroups:
+  - name: settings
+    label: Settings
+fields:
+  - name: aspectRatio
+    controlType: button-group
+    options:
+      - label: '4:3'
+        value: '4:3'
+      - label: '16:9'
+        value: '16:9'
+  - name: elementId
+    group: settings

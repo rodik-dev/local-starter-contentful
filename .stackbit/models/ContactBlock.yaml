@@ -1,0 +1,7 @@
+name: ContactBlock
+fieldGroups:
+  - name: settings
+    label: Settings
+fields:
+  - name: elementId
+    group: settings

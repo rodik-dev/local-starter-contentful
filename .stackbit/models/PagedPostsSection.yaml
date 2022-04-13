@@ -1,0 +1,11 @@
+name: PagedPostsSection
+extends:
+  - PostFeedSection
+fields:
+  - name: title
+    hidden: true
+  - name: subtitle
+    hidden: true
+  - name: actions
+    hidden: true
+    default: []

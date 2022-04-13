@@ -1,0 +1,16 @@
+name: SelectFormControl
+fieldGroups:
+  - name: styles
+    label: Styles
+fields:
+  - name: options
+    default:
+      - New York
+      - San Francisco
+  - name: width
+    group: styles
+    options:
+      - label: Full
+        value: full
+      - label: 'One half'
+        value: '1/2'

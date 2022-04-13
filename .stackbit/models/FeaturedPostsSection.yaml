@@ -1,0 +1,4 @@
+name: FeaturedPostsSection
+thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
+extends:
+  - PostFeedSection

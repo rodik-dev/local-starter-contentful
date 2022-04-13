@@ -1,0 +1,250 @@
+{
+    "model": "FeaturedPeopleSection",
+    "presets": [
+        {
+            "label": "Featured people light - 2 columns",
+            "thumbnail": "images/feat-people-light-2-col-alt.png",
+            "data": {
+                "variant": "variant-c",
+                "colors": "colors-h",
+                "title": "About us",
+                "subtitle": "Featured people section example",
+                "actions": [],
+                "people": [  
+                    {
+                        "$$type": "Person",
+                        "firstName": "Desmond",
+                        "lastName": "Eagle",
+                        "role": "Co-founder & CEO",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Desmond Eagle Headshot",
+                            "url": {
+                                "$$ref": "2oWTiGupvk1YQkWSV3JiXP"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "Person",
+                        "firstName": "Hilary",
+                        "lastName": "Ouse",
+                        "role": "Co-founder & CTO",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Hilary Ouse Headshot",
+                            "url": {
+                                "$$ref": "13cCABu23ZnxcKw3C6lPxt"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Featured people dark - 4 columns",
+            "thumbnail": "images/feat-people-dark-4-col.png",
+            "data": {
+                "variant": "variant-a",
+                "colors": "colors-f",
+                "title": "About us",
+                "subtitle": "Featured people section example",
+                "actions": [],
+                "people": [  
+                    {
+                        "$$type": "Person",
+                        "firstName": "Desmond",
+                        "lastName": "Eagle",
+                        "role": "Co-founder & CEO",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Desmond Eagle Headshot",
+                            "url": {
+                                "$$ref": "2oWTiGupvk1YQkWSV3JiXP"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "Person",
+                        "firstName": "Dianne",
+                        "lastName": "Ameter",
+                        "role": "Designer",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Dianne Ameter Headshot",
+                            "url": {
+                                "$$ref": "5ufPSJAGB5qSBqk7hv1r8W"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "Person",
+                        "firstName": "Hilary",
+                        "lastName": "Ouse",
+                        "role": "Co-founder & CTO",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Hilary Ouse Headshot",
+                            "url": {
+                                "$$ref": "13cCABu23ZnxcKw3C6lPxt"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        },
+        {
+            "label": "Featured people dark - 2 columns",
+            "thumbnail": "images/feat-people-dark-2-col.png",
+            "data": {
+                "variant": "variant-b",
+                "colors": "colors-f",
+                "title": "About us",
+                "subtitle": "Featured people section example",
+                "actions": [],
+                "people": [  
+                    {
+                        "$$type": "Person",
+                        "firstName": "Desmond",
+                        "lastName": "Eagle",
+                        "role": "Co-founder & CEO",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Desmond Eagle Headshot",
+                            "url": {
+                                "$$ref": "2oWTiGupvk1YQkWSV3JiXP"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "Person",
+                        "firstName": "Dianne",
+                        "lastName": "Ameter",
+                        "role": "Designer",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Dianne Ameter Headshot",
+                            "url": {
+                                "$$ref": "5ufPSJAGB5qSBqk7hv1r8W"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "Person",
+                        "firstName": "Hilary",
+                        "lastName": "Ouse",
+                        "role": "Co-founder & CTO",
+                        "bio": "This is the thing you were missing in your workflow, thank god we have it for you to use.",
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "elementId": "",
+                            "altText": "Hilary Ouse Headshot",
+                            "url": {
+                                "$$ref": "13cCABu23ZnxcKw3C6lPxt"
+                            },              
+                            "styles": {
+                                "self": {
+                                }
+                            }
+                        }
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": ["mt-0", "mb-0", "ml-0", "mr-0"],
+                        "padding": ["pt-12", "pb-12", "pl-4", "pr-4"],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

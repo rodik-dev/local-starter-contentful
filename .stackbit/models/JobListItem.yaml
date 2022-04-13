@@ -1,0 +1,10 @@
+name: JobListItem
+fields:
+  - name: actions
+    default:
+      - type: Link
+        label: Apply
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right

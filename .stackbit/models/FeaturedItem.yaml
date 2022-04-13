@@ -1,0 +1,44 @@
+name: FeaturedItem
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
+fields:
+  - name: elementId
+    group: settings
+  - name: featuredImage
+    default:
+      type: ImageBlock
+      altText: Item image
+  - type: style
+    name: styles
+    styles:
+      self:
+        padding: ['tw0:36']
+        borderRadius: '*'
+        borderWidth: ['0:8']
+        borderStyle: '*'
+        borderColor:
+          - value: 'border-primary'
+            label: 'Primary color'
+            color: '$primary'
+          - value: 'border-secondary'
+            label: 'Secondary color'
+            color: '$secondary'
+          - value: 'border-dark'
+            label: 'Dark color'
+            color: '$dark'
+          - value: 'border-complementary'
+            label: 'Complementary color'
+            color: '$complementary'
+        textAlign: ['left', 'center', 'right']
+      title:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+      subtitle:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
+    default:
+      self:
+        textAlign: left

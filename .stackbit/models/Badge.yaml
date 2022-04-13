@@ -1,0 +1,15 @@
+name: Badge
+fieldGroups:
+  - name: settings
+    label: Settings
+fields:
+  - name: elementId
+    group: settings
+  - type: style
+    name: styles
+    styles:
+      self:
+        textAlign: ['left', 'center', 'right']
+    default:
+      self:
+        textAlign: left

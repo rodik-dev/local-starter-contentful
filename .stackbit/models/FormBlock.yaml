@@ -1,0 +1,52 @@
+name: FormBlock
+fieldGroups:
+  - name: styles
+    label: Styles
+  - name: settings
+    label: Settings
+fields:
+  - name: variant
+    group: styles
+    options:
+      - label: Submit button at the bottom
+        value: variant-a
+      - label: Submit button on the right
+        value: variant-b
+  - name: fields
+    default:
+      - type: TextFormControl
+        label: Name
+        name: name
+        placeholder: Your name
+        isRequired: true
+        width: 1/2
+      - type: EmailFormControl
+        label: Email
+        name: email
+        placeholder: Your email
+        isRequired: true
+        width: 1/2
+      - type: TextFormControl
+        label: Home Address
+        name: home-address
+        placeholder: Your home address
+        isRequired: false
+        width: full
+      - type: CheckboxFormControl
+        name: updates
+        label: Sign me up to receive updates
+        width: full
+  - name: elementId
+    group: settings
+  - name: action
+    group: settings
+  - name: destination
+    group: settings
+  - type: style
+    name: styles
+    styles:
+      submitLabel:
+        textAlign: ['left', 'center', 'right']
+    default:
+      submitLabel:
+        textAlign: left

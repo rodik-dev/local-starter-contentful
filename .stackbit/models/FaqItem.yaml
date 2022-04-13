@@ -1,0 +1,8 @@
+name: FaqItem
+fields:
+  - type: style
+    name: styles
+    styles:
+      question:
+        fontWeight: ['400', '700']
+        fontStyle: ['normal', 'italic']
